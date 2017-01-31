@@ -8,12 +8,43 @@ a {
   color: #fff;
 }
 
+.btn {
+  color: #fff;
+  border-color: #fff;
+}
+
 .btn:hover {
   background-color: #fff;
   color: #ff5e3a;
   border: #fff;
 }
 
+.bubble, .domes {
+  border-bottom: .1em solid rgba(255, 255, 255, 1);
+}
+
 section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+@media only screen and (min-width:60em) {
+
+  .bubbles, .domes {
+    border-bottom: none;
+    border-right: .1em solid rgba(255, 255, 255, 1);
+    padding: 1em;
+  }
+
+  .stilts {
+    padding: 1em;
+  }
+
+  section {
+    margin: .5em;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
 }
