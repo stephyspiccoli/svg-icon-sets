@@ -27,7 +27,7 @@ section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
 
   .bubbles, .domes {
     border-bottom: none;
